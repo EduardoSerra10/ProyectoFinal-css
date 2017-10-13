@@ -1,0 +1,190 @@
+
+body
+{
+	background-color: #02010a;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+header
+{
+ background: #5b7989;
+ width: 100%;
+ overflow: hidden;
+ border-radius: 10px 10px 0 0 ;
+ -moz-border-radius: 10px 10px 0 0 ;
+ -webkit-border-radius: 10px 10px 0 0 ;
+ margin-bottom: 0;
+}
+.contenido
+{
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+header .logo
+{
+  color: white;
+  float: left;
+	text-shadow: 2px 2px 2px #02010a;
+	font-family: Dancing Script;
+	margin-top: 20px;
+	line-height: 50px;
+	text-align: center;
+  font-size: 43px;
+}
+nav li
+{
+	float: left;
+	list-style: none;
+	text-align: center;
+}
+header nav
+{
+	float: right;
+	line-height: 100px;
+}
+header nav a
+{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px;
+	line-height: normal;
+	font-size: 18px;
+	text-align: center;
+	margin: 1px;
+}
+.imgs{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+.imgs div
+{
+	box-sizing: border-box;
+  min-width: 150px;
+  padding: 20px;
+}
+section img
+{
+	width: 100%;
+	min-width: 100px;
+	max-width: 300px;
+	margin: auto;
+	display: block;
+}
+.centro
+{
+	width: 100%;
+	min-width: 200px;
+	max-width: 900px;
+	margin: auto;
+	border: solid black 1px;
+}
+
+.i1
+{
+	background-color: #82c3a6;
+	order: 1;
+	border: 1px;
+}
+.i2
+{
+	background-color: #d5c75f;
+	order: 2;
+}
+.i3
+{
+	background-color: #d5c75f;
+	order: 3;
+}
+.i2 img
+{
+	transition-duration: 2s;
+	border: solid black 2px;
+}
+.i2 img:hover
+{
+		transform: rotate(10deg);
+		box-shadow: 10px 10px 10px 0 #82C3A6;
+		border: none;
+}
+.i3 img
+{
+	animation-name: Muelle;
+	transition-duration: 3s;
+	border: solid black 2px;
+}
+.i3 img:hover
+{
+	transform: translate(20px,-5px);
+	box-shadow: 10px 10px 10px 0 #82c3a6;
+	border: none;
+
+}
+.pie_img
+{
+	text-align: center;
+}
+@media (min-width:900px)
+{
+	.i1{width: 100%;}
+	.i2{width: 50%;
+			float: left;}
+	.i3{width: 50%;
+			float: right;}
+	#contacto {width: 25%;
+						height: 175px;}
+	#terminos {width: 25%;
+						height: 175px;}
+	#redes {width: 25%;
+		  		height: 175px;}
+	#derechos {width: 25%;
+						height: 175px;}
+	footer {display: flex;
+				flex-flow: nowrap;}
+}
+@media (min-width:200px) (max_width:899px) {
+	.i1{width: 100%;}
+	.i2{width: 100%;}
+	.i3{width: 100%;}
+	#contacto {width: 100%;}
+	#terminos {width: 100%;}
+	#redes {width: 100%;}
+	#derechos {width: 100%;}
+}
+footer
+{
+	background-color: #C6d5c5;
+	width: 100%;
+	height: 350;
+	margin-top: auto;
+	border-radius: 0 0 10px 10px ;
+	-moz-border-radius: 0 0 10px 10px ;
+	-webkit-border-radius: 0 0 10px 10px ;
+}
+footer h3,p,li
+{
+	font-size: 12px;
+}
+#contacto
+{
+	padding: 10px;
+	text-align: center;
+}
+#terminos
+{
+	padding: 10px;
+	text-align: center;
+}
+#redes
+{
+	padding: 10px;
+	text-align: center;
+}
+#derechos
+{
+
+	padding: 10px;
+	text-align: center;
+}
