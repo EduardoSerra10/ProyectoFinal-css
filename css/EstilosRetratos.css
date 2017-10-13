@@ -5,7 +5,7 @@
 }
 body
 {
-	background: #02010a;
+  background: #02010a;
 }
 header
 {
@@ -35,7 +35,7 @@ h1
 	color: white;
 	text-shadow: 2px 2px 2px #02010a;
 	padding-left: 30px;
-	font-family: 'DancingScript';
+  font-family: 'DancingScript';
 }
 #navegacion
 {
@@ -59,11 +59,11 @@ li
 }
 ul li a
 {
+  font-family: 'DancingScript';
   text-decoration: underline;
 	margin: 15px;
 	color: white;
-	font-size: 18px;
-	font-family: 'DancingScript';
+  font-size: 18px;
 }
 #contenedor
 {
@@ -90,7 +90,7 @@ ul li a
 }
 .img1
 {
-	width: 70%;
+  width: 70%;
 	height: auto;
 	display: block;
 	margin: auto;
@@ -102,7 +102,7 @@ ul li a
 }
 .img2
 {
-	width: 70%;
+  width: 70%;
 	height: auto;
 	display: block;
 	margin: auto;
@@ -114,7 +114,7 @@ ul li a
 }
 .img3
 {
-	width: 70%;
+  width: 70%;
 	height: auto;
 	display: block;
 	margin: auto;
@@ -126,17 +126,17 @@ ul li a
 }
 .img4
 {
-	width: 70%;
-	height: auto;
-	display: block;
-	margin: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	box-shadow: 2px 2px 0 #02010a;
+  width: 70%;
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 0 #02010a;
 }
 .img5
 {
-	width: 70%;
+  width: 70%;
 	height: auto;
 	display: block;
 	margin: auto;
@@ -148,7 +148,7 @@ ul li a
 }
 .img6
 {
-	width: 70%;
+  width: 70%;
 	height: auto;
 	display: block;
 	margin: auto;
@@ -158,15 +158,17 @@ ul li a
 	filter: grayscale(100%);
 	box-shadow: 2px 2px 0 #02010a;
 }
+
 footer #pie
 {
 	display: flex;
 	flex-flow: row wrap;
+  width: 100%;
 }
 footer h3, p, a
 {
 	font-size: 12px;
-	font-family: 'DancingScript';
+  font-family: 'DancingScript';
 }
 .contactos
 {
@@ -187,27 +189,28 @@ footer h3, p, a
 {
 	background: #c6dec5;
 	text-align: center;
-
 }
-
 @media (max-width:900px)
 {
   .logo{width: 100%; text-align: center;}
 	h1{text-align: center;}
 	.col1,.col2,.col3{width: 100%;}
   #navegacion{width: 100%;}
-	#contenido {width: 100%;
-				height: auto;
-				margin: auto;
-				display: block;}
-	.contactos{width: 100%; height: auto;}
-	.terminos{width: 100%; height: auto;}
-	.redes{width: 100%; height: auto;}
-	.derechos{width: 100%; height: auto;
-		border-radius: 0 0 10px 10px;
-	-moz-border-radius: 0 0 10px 10px;
-	-webkit-border-radius: 0 0 10px 10px;}
-
+	#contacto {width: 100%;}
+  #terminos {width: 100%;}
+  #redes {width: 100%;}
+  #derechos {width: 100%;}
+  #contenido{width: 100%;
+             height: auto;
+             margin: auto;
+             display: block;}
+  .contactos{width: 100%; height: auto;}
+  .terminos{width: 100%; height: auto;}
+  .redes{width: 100%; height: auto;}
+  .derechos{width: 100%; height: auto;
+  border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;}
 }
 @media (min-width:901px)
 {
@@ -215,20 +218,30 @@ footer h3, p, a
   #navegacion{text-align: right;
 							width: 50%;}
 	 ul{margin-right: 15px;}
-	 #contenido {width: 900px;
-						 height: auto;
-						 margin: auto;
-						 display: block;}
-	 .contactos{width: 25%; height: auto;
-		 border-radius: 0 0 0 10px;
-	 -moz-border-radius: 0 0 0 10px;
-	 -webkit-border-radius: 0 0 0 10px;}
-	 .terminos{width: 25%; height: auto;}
-	 .redes{width: 25%; height: auto;}
-	 .derechos{width: 25%; height: auto;
-		 border-radius: 0 0 10px 0;
-	 -moz-border-radius: 0 0 10px 0;
-	 -webkit-border-radius: 0 0 10px 0;}
+	 #contacto {width: 25%;
+					 height: 175px;}
+   #terminos {width: 25%;
+					 height: 175px;}
+ 	 #redes {width: 25%;
+				 height: 175px;}
+   #derechos {width: 25%;
+					 height: 175px;}
+ footer {display: flex;
+			 flex-flow: nowrap;}
+   #contenido{width: 900px;
+              height: auto;
+              margin: auto;
+              display: block;}
+  .contactos{width: 25%; height: auto;
+  border-radius: 0 0 0 10px;
+  -moz-border-radius: 0 0 0 10px;
+  -webkit-border-radius: 0 0 0 10px;}
+  .terminos{width: 25%; height: auto;}
+  .redes{width: 25%; height: auto;}
+  .derechos{width: 25%; height: auto;
+  border-radius: 0 0 10px 0;
+  -moz-border-radius: 0 0 10px 0;
+  -webkit-border-radius: 0 0 10px 0;}
 }
 .rebote
 {
