@@ -1,4 +1,8 @@
-
+@font-face
+{
+	font-family: 'DancingScript';
+	src: url('DancingScript.otf');
+}
 body
 {
 	background-color: #02010a;
@@ -25,7 +29,7 @@ header
 }
 h1
 {
-
+	font-family: 'DancingScript';
 	text-align: center;
 	color: white;
 	text-shadow: 2px 2px 2px #02010a;
@@ -56,6 +60,7 @@ ul li a
 	margin: 15px;
 	color: white;
 	font-size: 18px;
+  font-family: 'DancingScript';
 }
 .principal
 {
@@ -154,6 +159,7 @@ footer #pie
 footer h3, p, a
 {
 	font-size: 12px;
+	font-family: 'DancingScript';
 }
 .contactos
 {
@@ -212,3 +218,22 @@ footer h3, p, a
 		-webkit-border-radius: 0 0 10px 0;}
 }
 
+.rebote
+{
+	animation: rebote 4s;
+}
+@-webkit-keyframes rebote
+{
+	0%
+	{
+		margin-top: 150%;
+	}
+	60%
+	{
+		margin-top: -5%;
+	}
+	100%
+	{
+		margin-top: 0%;
+	}
+}
