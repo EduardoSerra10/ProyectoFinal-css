@@ -7,14 +7,15 @@
     <link rel="Stylesheet" href="css/estilos.css">
   </head>
   <body class="rebote">
+    <div id="contenido">
     <header>
-      <div class="contenido">
+      <div class="cabeza">
       <div class="logo">
-        Comenzando con la fotografía
+        <h1>Comenzando con la fotografía</h1>
       </div>
-      <nav>
+      <nav id="navegacion">
         <ul>
-          <li><a href="index.html">Inicio</a></li>
+          <li><a href="index.html" class="active">Inicio</a></li>
           <li><a href="Paisajes.html">Paisajes</a></li>
           <li><a href="Retratos.html">Retratos</a></li>
         </ul>
@@ -22,44 +23,46 @@
    </div>
     </header>
     <section>
-     <div class="imgs" role="main">
-      <div class="i1">
+      <div class="principal">
+      <div class="img">
       <img src="img/Bebida.jpg" alt="Bebida" title="Bebida" width="100%"  class="centro">
       </div>
-      <div class="i2">
-      <a href="../Paisajes.html"><img src="img/Rio.jpg" alt="Paisaje" title="Paisaje" width="300px" height="200px" class="izquierda">
-      <figcaption class="pie_img">Paisaje</figcaption>
       </div>
-      <div class="i3">
-        <a href="../Retratos.html"><img src="img/Mujer.jpg" alt="Mujer" title="Mujer" width="300px" height="200px" class="derecha">
-        <figcaption class="pie_img">Retrato</figcaption>
+      <div id="secundario">
+      <div class="caja1">
+        <a href="Paisajes.html"><img src="img/Rio.jpg" alt="Paisaje" title="Paisaje" class="paisaje">
+          <figcaption class="pie_img">Paisaje</figcaption></a>
       </div>
-    </div>
+      <div class="caja2">
+        <a href="Retratos.html"><img src="img/Retrato.jpg" alt="Mujer" title="Mujer" class="rostro" >
+          <figcaption class="pie_img">Retrato</figcaption></a>
+      </div>
+     </div>
   </section>
     <footer>
-      <div id="contacto">
-      <h3>Contacto:</h3>
-        <p>Correo Electronico: <a href="mailto:edduardo_25@outlook.com">edduardo_25@outlook.com</a></p>
-        <p>Tel: 502-3202-8060</p>
-        <p>Facebook: Edduardo Serrano</p>
-     </div>
-      <p>
-      <div id="terminos">
+      <div id="pie">
+        <div class="contactos">
+        <h3>contactos</h3>
+          <p>Correo Electronico: <a href="mailto:edduardo_25@outlook.com">edduardo_25@outlook.com</a></p>
+          <p>Tel: 502-3202-8060</p>
+          <p>Facebook: Edduardo Serrano</p>
+       </div>
+      <div class="terminos">
       <h3>Terminos:</h3>
       <p>Pilitica y privacidad</p>
     </div>
-      <p>
-      <div id="redes">
+      <div class="redes">
       <h3>Redes Sociales:</h3>
         <a href="http://facebook.com"><img src="./iconos/facebook.svg" alt="Facebook" width="20" height="20"></a>
         <a href="http://twitter.com"><img src="./iconos/twitter.svg" alt="Twitter" width="20" height="20"></a>
         <a href="http://youtube.com"><img src="./iconos/youtube.svg" alt="Youtube" width="20" height="20"></a>
       </div>
-      <p>
-        <div id="derechos">
+        <div class="derechos">
         <h3>Derechos:</h3>
         <p>Copyright © 2017 Edduardo Serrano</p>
         </div>
+      </div>
     </footer>
+  </div>
   </body>
 </html>
